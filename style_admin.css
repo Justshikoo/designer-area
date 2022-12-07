@@ -1,0 +1,80 @@
+body {
+	font-family: "Manrope", sans-serif;
+}
+
+:root {
+	--color-dark: #32344f;
+	--color-yellow: #ffed00;
+}
+.card {
+	margin-bottom: 20px;
+}
+ul {
+	list-style-type: none;
+}
+li {
+	list-style-type: none;
+}
+.keterangan-judul {
+	color: var(--color-dark);
+}
+/* ------------------------------------------------- */
+/* Login Admin */
+/* ------------------------------------------------- */
+.form-layout {
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background-color: #656895;
+}
+.form-admin-login {
+	background-color: var(--color-dark);
+	padding: 20px;
+	margin-bottom: 50px;
+	border-radius: 5px;
+	color: #fff;
+}
+.form-admin-login h4 {
+	font-weight: 700;
+}
+.form-admin-login p {
+	font-size: 10px;
+}
+.button-submit {
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 20px;
+	margin: 10px 0;
+	background-color: var(--color-yellow);
+	font-weight: 600;
+	font-size: 14px;
+	transition: 0.3s;
+}
+.button-submit:hover {
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 20px;
+	margin: 10px 0;
+	background-color: #fff;
+	font-weight: 600;
+	font-size: 14px;
+}
+/* ----- Artikel Section ------*/
+.text-b {
+	color: #000;
+}
+.button-tambah button {
+	border: none;
+	border-radius: 3px;
+	padding: 5px 20px;
+	margin: 10px 0;
+	background-color: var(--color-dark);
+	font-weight: 600;
+	font-size: 14px;
+	color: #fff;
+	transition: 0.3s;
+}
+/* ----- END Artikel Section ------*/
+

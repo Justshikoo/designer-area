@@ -1,0 +1,609 @@
+body {
+	font-family: "Manrope", sans-serif;
+}
+
+:root {
+	--color-dark: #32344f;
+	--color-yellow: #ffed00;
+}
+.card {
+	margin-bottom: 20px;
+}
+ul {
+	list-style-type: none;
+}
+li {
+	list-style-type: none;
+}
+/* Navigation Bar */
+.nav-color {
+	background-color: var(--color-dark);
+}
+.nav-item {
+	font-size: 14px;
+}
+.navbar-brand {
+	font-weight: 700;
+	color: #fff;
+	transition: 0.3s;
+}
+.button-navbar button {
+	font-weight: 700;
+	font-size: 12px;
+	color: var(--color-dark);
+	background-color: var(--color-yellow);
+	padding: 5px 20px;
+	border: none;
+	border-radius: 2px;
+	transition: 0.3s;
+}
+.button-navbar button:hover {
+	font-weight: 700;
+	font-size: 12px;
+	color: var(--color-dark);
+	background-color: #fff;
+	padding: 5px 20px;
+	border: none;
+	border-radius: 2px;
+}
+/* Jumbotron */
+.jumbotron {
+	background-color: var(--color-dark);
+}
+.jumbotron-text {
+	width: 80%;
+}
+.jumbotron-text h4 {
+	font-weight: 700;
+	font-size: 46px;
+	color: #fff;
+}
+.jumbotron-text p {
+	color: #fff;
+}
+.jumbotron-text button {
+	margin-top: 15px;
+	font-size: 16px;
+	font-weight: 600;
+	background-color: var(--color-yellow);
+	border: none;
+	padding: 10px 20px;
+	border-radius: 2px;
+	transition: 0.3s;
+}
+.jumbotron-text button:hover {
+	margin-top: 15px;
+	font-size: 16px;
+	font-weight: 600;
+	background-color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 2px;
+}
+
+/* Responsive-jumbotron */
+@media (max-width: 576px) {
+	.jumbotron {
+		height: 100%;
+	}
+	.jumbotron-text {
+		width: 100%;
+	}
+	.jumbotron-text h4 {
+		margin-top: 20px;
+		font-weight: 700;
+		font-size: 20px;
+		color: #fff;
+	}
+	.jumbotron-img {
+		opacity: 0;
+	}
+}
+
+@media (max-width: 768px) {
+	.jumbotron-text {
+		width: 100%;
+	}
+	.jumbotron-text h4 {
+		font-weight: 700;
+		font-size: 36px;
+		color: #fff;
+	}
+}
+
+/* Why Section */
+.why-home {
+	margin: 30px 0;
+}
+.why-content h4 {
+	font-weight: 700;
+	font-size: 28px;
+}
+.why-content button {
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: 600;
+	background-color: var(--color-yellow);
+	border: none;
+	padding: 10px 25px;
+	border-radius: 2px;
+	transition: 0.3s;
+}
+.why-content button:hover {
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	background-color: var(--color-dark);
+	border: none;
+	padding: 10px 25px;
+	border-radius: 2px;
+}
+
+/* Forum Terbaru Section */
+.forum-terbaru {
+	background-color: var(--color-dark);
+	padding: 30px 0;
+}
+.title-forum-terbaru h4 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 32px;
+	color: #fff;
+	padding: 30px 0;
+}
+.card-title {
+	font-weight: 700;
+}
+.button-lainnya button {
+	margin-top: 20px;
+	font-size: 16px;
+	font-weight: 600;
+	background-color: var(--color-yellow);
+	border: none;
+	padding: 10px 25px;
+	border-radius: 2px;
+	transition: 0.3s;
+}
+.button-lainnya button:hover {
+	margin-top: 20px;
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--color-dark);
+	background-color: #fff;
+	border: none;
+	padding: 10px 25px;
+	border-radius: 2px;
+}
+
+/* Artikel Terbaru Section */
+.artikel-terbaru {
+	background-color: #fff;
+	padding: 30px 0;
+}
+.title-artikel-terbaru h4 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 32px;
+	color: var(--color-dark);
+	padding: 30px 0;
+}
+.button-detail-artikel  {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 2px;
+	background-color: var(--color-yellow);
+	color: var(--color-dark);
+	font-weight: 700;
+	transition: 0.3s;
+}
+.button-detail-artikel:hover {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 2px;
+	background-color: var(--color-dark);
+	color: #fff;
+	font-weight: 700;
+}
+/* Form Home Section */
+.form-home {
+	padding: 80px 0;
+}
+.title-form-home h4 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 32px;
+	color: var(--color-dark);
+	padding: 30px 0;
+}
+.button-hubungi {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 2px;
+	background-color: var(--color-yellow);
+	color: var(--color-dark);
+	font-weight: 700;
+	transition: 0.3s;
+	margin-bottom: 40px;
+}
+.button-hubungi:hover {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 2px;
+	background-color: var(--color-dark);
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+/* END Form Home Section */
+/* Footer */
+.footer {
+	background-color: var(--color-dark);
+	padding: 30px;
+}
+.footer .text-center {
+	color: #fff;
+}
+.title-footer {
+	font-weight: 700;
+	font-size: 26px;
+	color: #fff;
+	transition: 0.3s;
+}
+.title-footer:hover {
+	font-weight: 700;
+	font-size: 26px;
+	color: var(--color-yellow);
+}
+.text-footer p {
+	font-size: 12px;
+	color: #fff;
+}
+.menu-footer {
+	font-weight: 700;
+	font-size: 14px;
+	color: #fff;
+}
+.link-nav-footer a {
+	text-decoration: none;
+}
+.link-nav-footer p {
+	font-size: 12px;
+	padding-top: 5px;
+	color: #fff;
+	line-height: 25%;
+	transition: 0.2s;
+}
+.link-nav-footer p:hover {
+	font-size: 12px;
+	padding-top: 5px;
+	color: var(--color-yellow);
+	line-height: 25%;
+}
+.social-media h4 {
+	font-weight: 700;
+	font-size: 20px;
+	color: #fff;
+	line-height: auto;
+}
+.social-media p {
+	font-size: 12px;
+	color: #fff;
+	line-height: auto;
+	font-size: 12px;
+	color: #fff;
+}
+.social-media-footer a button {
+	background-color: #fff;
+	border: none;
+	border-radius: 2px;
+	margin-right: 5px;
+	transition: 0.3s;
+}
+.social-media-footer a button:hover {
+	background-color: var(--color-yellow);
+	border: none;
+	border-radius: 2px;
+	margin-right: 5px;
+}
+.jumbotron-info span {
+	color: var(--color-yellow);
+}
+/* ------------------------------------------------- */
+/* Tentang Kami */
+/* ------------------------------------------------- */
+.tentang-kami h4 {
+	font-weight: 700;
+	font-size: 28px;
+}
+.title-fitur h4 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 32px;
+	color: var(--color-dark);
+	padding: 30px 0;
+}
+.card-fitur {
+	background-color: #32344f;
+	padding: 20px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+.card-fitur img {
+	border-radius: 50%;
+	border: 2px solid var(--color-yellow);
+}
+.info-fitur {
+	margin-top: 15px;
+	color: #fff;
+}
+.info-fitur a {
+	font-weight: 700;
+	text-decoration: none;
+}
+.info-fitur h4 {
+	font-weight: 700;
+	color: var(--color-yellow);
+	transition: 0.3s;
+}
+.info-fitur h4:hover {
+	font-weight: 700;
+	color: #fff;
+}
+/* ------------------------------------------------- */
+/* Informasi Section */
+/* ------------------------------------------------- */
+.kategori-informasi {
+	margin: 30px;
+}
+.card-informasi {
+	background-color: #32344f;
+	padding: 20px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+.card-informasi img {
+	border-radius: 50%;
+	border: 2px solid var(--color-yellow);
+}
+.info-informasi {
+	margin-top: 15px;
+	color: #fff;
+}
+.info-informasi a {
+	font-weight: 700;
+	text-decoration: none;
+}
+.info-informasi h4 {
+	font-weight: 700;
+	color: var(--color-yellow);
+	transition: 0.3s;
+}
+.info-informasi h4:hover {
+	font-weight: 700;
+	color: #fff;
+}
+@media (max-width: 576px) {
+	.image-sekilas {
+		width: 100%;
+	}
+}
+
+/* Sekilas Pengertian Section */
+.sekilas-informasi {
+	margin-bottom: 20px;
+}
+.info-pengertian {
+	color: var(--color-dark);
+}
+.info-pengertian h4 {
+	font-weight: 800;
+	font-size: 28px;
+}
+.info-pengertian button {
+	margin-top: 5px;
+	font-size: 16px;
+	font-weight: 600;
+	background-color: var(--color-yellow);
+	border: none;
+	padding: 10px 25px;
+	border-radius: 2px;
+	transition: 0.3s;
+}
+.info-pengertian button:hover {
+	margin-top: 5px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	background-color: var(--color-dark);
+	border: none;
+	padding: 10px 25px;
+	border-radius: 2px;
+}
+.nav-kategori-artikel {
+	padding: 15px;
+	border-radius: 5px;
+	border: 1px solid #dfdfdf;
+	margin-bottom: 20px;
+}
+.nav-kategori-artikel h4 {
+	font-weight: 700;
+	font-size: 20px;
+}
+.nav-kategori-artikel a {
+	text-decoration: none;
+}
+.nav-kategori-artikel a p {
+	color: #32344f;
+}
+.nav-kategori-artikel a p:hover {
+	color: var(--color-yellow);
+}
+/* ------------------------------------------------- */
+/* Pengertian section */
+/* ------------------------------------------------- */
+.informasi-section {
+	padding: 20px 0;
+}
+.konten-informasi img {
+	max-height: 300px;
+	object-fit: cover;
+	margin-bottom: 30px;
+}
+.konten-informasi h4 {
+	font-weight: 700;
+	font-size: 32px;
+	color: var(--color-dark);
+}
+.card-informasi-lain {
+	background-color: var(--color-dark);
+	border-radius: 5px;
+	padding: 20px;
+	color: #fff;
+}
+.card-informasi-lain a {
+	text-decoration: none;
+}
+.card-informasi-lain p {
+	font-size: 14px;
+	margin-top: 20px;
+	color: #fff;
+	transition: 0.3s;
+	line-height: 50%;
+}
+.card-informasi-lain p:hover {
+	font-size: 14px;
+	margin-top: 20px;
+	color: var(--color-yellow);
+	line-height: 50%;
+}
+/* ------------------------------------------------- */
+/* Forum section */
+/* ------------------------------------------------- */
+.forum-kami {
+	margin: 0;
+	padding: 20px 0;
+}
+.widget-forum .card {
+	background-color: var(--color-dark);
+}
+.widget-forum .card h4 {
+	font-weight: 700;
+	font-size: 18px;
+	color: #fff;
+}
+.widget-forum .card a {
+	text-decoration: none;
+}
+.widget-forum .card p {
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	transition: 0.3s;
+}
+.widget-forum .card p:hover {
+	text-decoration: none;
+	color: var(--color-yellow);
+	font-size: 14px;
+	transition: 0.3s;
+}
+/* ------------------------------------------------- */
+/* ARTIKEL SECTION */
+/* ------------------------------------------------- */
+.widget-artikel .card {
+	background-color: var(--color-dark);
+}
+.widget-artikel .card h4 {
+	font-weight: 700;
+	font-size: 18px;
+	color: #fff;
+}
+.widget-artikel .card a {
+	text-decoration: none;
+}
+.widget-artikel .card p {
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	transition: 0.3s;
+}
+.widget-artikel .card p:hover {
+	text-decoration: none;
+	color: var(--color-yellow);
+	font-size: 14px;
+	transition: 0.3s;
+}
+/* ------------------------------------------------- */
+/* REGISTRASI SECTION */
+/* ------------------------------------------------- */
+.title-form-registrasi h4 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 32px;
+	color: var(--color-dark);
+	padding: 30px 0 0 0;
+	margin-bottom: 30px;
+}
+.form-registrasi {
+	background-color: var(--color-dark);
+	padding: 20px;
+	margin-bottom: 50px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+.form-group label {
+	color: #fff;
+}
+/* ------------------------------------------------- */
+/* LOGIN SECTION */
+/* ------------------------------------------------- */
+.title-form-login h4 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 32px;
+	color: var(--color-dark);
+	padding: 30px 0 0 0;
+	margin-bottom: 30px;
+}
+.form-login {
+	background-color: var(--color-dark);
+	padding: 20px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	margin-bottom: 50px;
+}
+.form-group label {
+	color: #fff;
+}
+.konfirmasi-akun a {
+	text-decoration: none;
+}
+.konfirmasi-akun p {
+	font-size: 14px;
+	color: #fff;
+}
+.konfirmasi-akun span {
+	font-size: 14px;
+	color: var(--color-yellow);
+	transition: 0.3s;
+}
+.konfirmasi-akun span:hover {
+	font-size: 14px;
+	transition: 0.3s;
+	color: #fff;
+}
+.button-submit {
+	border: none;
+	border-radius: 5px;
+	padding: 5px 20px;
+	margin: 10px 0;
+	background-color: var(--color-yellow);
+	font-weight: 600;
+	font-size: 14px;
+}
